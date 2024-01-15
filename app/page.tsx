@@ -4,6 +4,7 @@ import { useState } from "react";
 import Image from "next/image";
 import Markdown from "react-markdown";
 import { BeatLoader } from "react-spinners";
+import toast, { Toaster } from "react-hot-toast";
 
 export default function Home() {
 
@@ -41,6 +42,17 @@ export default function Home() {
   };
 
   const handleClick = async () => {
+
+    if (file.length === 0) {
+      toast.error("Please choose an image");
+      return;
+    }
+
+    if (prompt === "") {
+      toast.error("Please enter a prompt");
+      return;
+    }
+
     const fileInputEl = document.querySelector("input[type=file]");
     const imageParts = await Promise.all(
       // @ts-ignore
@@ -74,6 +86,7 @@ export default function Home() {
 
   return (
     <main className="flex flex-col gap-5 justify-center items-center h-screen overflow-y-scroll">
+      <Toaster />
       <div className="flex items-center gap-3">
         <Image src="/image.png" alt="" width={50} height={50} />
         <h1 className="text-2xl font-bold">AI Image Recognition</h1>

@@ -42,6 +42,9 @@ To get started with Gemini Image, follow these steps:
 
 ![Screenshot 2024-01-18 213050](https://github.com/kanugurajesh/Gemini-Image/assets/77529419/f78510db-5bb5-4c21-a442-e6ba626138eb)
 
+## Demo
+
+[![Gemini-Image](https://img.youtube.com/vi/4vltPP3FY1g/0.jpg)](https://www.youtube.com/watch?v=4vltPP3FY1g)
 
 ## Contributing
 

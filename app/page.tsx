@@ -96,13 +96,13 @@ export default function Home() {
       {file.map((item, index) => {
         return (
           <div key={index} className="flex gap-2 mt-1">
-            <Image src={item} width={200} height={200} alt="" />
+            <Image src={item} width={300} height={300} alt="" />
           </div>
         )
       })}
       {showGenerate && (
         <div className="flex flex-col justify-center items-center gap-5 relative mt-4">
-          <input type="text" className="border-black border-2 w-60 p-2 rounded-sm " placeholder="What's in the image?" onChange={handlePromptChange} />
+          <input type="text" className="border-black border-2 w-80 p-2 pr-10 rounded-sm " placeholder="What's in the image?" onChange={handlePromptChange} />
           {loading ? (
             <button>
               <BeatLoader color="black" loading={true} size={5} className="absolute top-[9px] right-2 hover:scale-110 transition-all ease-in-out" />

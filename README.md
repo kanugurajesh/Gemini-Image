@@ -32,6 +32,17 @@ To get started with Gemini Image, follow these steps:
 2. Use the beautiful user interface to interact with Gemini Pro Vision.
 3. Integrate the project seamlessly into your own applications for advanced image recognition.
 
+## Screenshots
+
+![Screenshot 2024-01-18 213020](https://github.com/kanugurajesh/Gemini-Image/assets/77529419/81bf1223-a902-42aa-8d03-9909bd64e6d5)
+
+![Screenshot 2024-01-18 213027](https://github.com/kanugurajesh/Gemini-Image/assets/77529419/4d05170c-8a66-4fbb-be84-507d79cffdfe)
+
+![Screenshot 2024-01-18 213040](https://github.com/kanugurajesh/Gemini-Image/assets/77529419/45eef5f7-6ee0-4f6a-9c6c-8d3bab0119af)
+
+![Screenshot 2024-01-18 213050](https://github.com/kanugurajesh/Gemini-Image/assets/77529419/f78510db-5bb5-4c21-a442-e6ba626138eb)
+
+
 ## Contributing
 
 If you'd like to contribute to Gemini Image, please follow the [Contribution Guidelines](CONTRIBUTING.md).

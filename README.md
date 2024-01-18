@@ -19,11 +19,13 @@ Gemini Image is a personalized image recognizer that allows you to train it acco
 
 To get started with Gemini Image, follow these steps:
 
-1. Clone the repository: `git clone https://github.com/kanugurajesh/Gemini-Image.git`
-2. Navigate to the project directory: `cd Gemini-Image`
-3. Open the project in your preferred development environment.
-4. Customize and train the image recognizer according to your requirements.
-
+1. Fork the repository
+2. Clone the repository: `git clone https://github.com/yourusername/Gemini-Image.git`
+3. Navigate to the project directory: `cd Gemini-Image`
+4. Install all the required packages: `npm install`
+5. Copy the environment variables: `cp .env.example .env.local`
+6. Now add all the environment variables into the .env.local
+  
 ## Usage
 
 1. Run the application.
